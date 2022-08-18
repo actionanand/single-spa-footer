@@ -15,6 +15,7 @@ This repo is used in conjunction with nine other repos listed below. Together th
 - [**Nav Bar App**](https://github.com/actionanand/single-spa-nav)
 - [**Footer App** (This Repo)](https://github.com/actionanand/single-spa-footer)
 - [**404 App**](https://github.com/actionanand/single-spa-404)
+- [**Vanilla JS App**](https://github.com/actionanand/single-spa-vanilla-js)
 - [**Utility App**](https://github.com/actionanand/single-spa-utility)
 
 ## Demo
