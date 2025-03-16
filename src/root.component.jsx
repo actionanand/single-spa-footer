@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './root.component.module.css';
 
 const fullYear = new Date().getFullYear();
-
+const yearToDisplay = `2022-${fullYear}`;
 
 export default function Root() {
   return (
@@ -13,7 +13,7 @@ export default function Root() {
             <div>Anand Raja</div>
           </li> */}
           <li className={classes.link}>
-            <div>&copy; {fullYear}. All rights reserved</div>
+            <div>&copy; {yearToDisplay}. All rights reserved</div>
           </li>
         </ul>
       </nav>
