@@ -3,7 +3,11 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: yarn install && yarn run build
-    command: yarn run start
-
-
+  - name: Single-SPA-React
+    before: nvm install v18.20.5
+    init: yarn install && yarn run build
+    command: yarn run start:standalone
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
